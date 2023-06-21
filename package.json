@@ -1,0 +1,50 @@
+{
+  "name": "vue3-use-print",
+  "version": "1.0.0",
+  "description": "Vue based browser local printing or async template printing（基于vue的浏览器局部打印或模板/异步模板打印）",
+  "keywords": [
+    "vue",
+    "print",
+    "localPrint",
+    "templatePrint"
+  ],
+  "author": "Jaye",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lei1248276/vue-use-print"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/usePrint.d.ts",
+  "main": "./dist/usePrint.js",
+  "module": "./dist/usePrint.js",
+  "exports": {
+    ".": {
+      "types": "./dist/usePrint.d.ts",
+      "import": "./dist/usePrint.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/eslint-config-typescript": "^11.0.3",
+    "echarts": "^5.4.2",
+    "eslint": "^8.43.0",
+    "eslint-plugin-vue": "^9.15.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vite-plugin-dts": "^2.3.0",
+    "vue": "^3.3.4",
+    "vue-eslint-parser": "^9.3.1",
+    "vue-tsc": "^1.8.1",
+    "vue3-use-print": "^1.0.0"
+  }
+}
