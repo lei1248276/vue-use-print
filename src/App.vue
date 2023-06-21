@@ -1,6 +1,8 @@
 <template>
-  <TemplatePrint/>
-  <LocalPrint/>
+  <div>
+    <TemplatePrint/>
+    <LocalPrint/>
+  </div>
 </template>
 
 <script setup lang="ts">
