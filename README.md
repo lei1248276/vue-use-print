@@ -2,7 +2,7 @@
 Vue based browser local printing or async template printing（基于vue的浏览器局部打印或模板/异步模板打印）
 
 ## Preview
-- [vue3-use-print](https://print.vercel.app)
+- [vue3-use-print](https://use-print.vercel.app)
 - [vue3-use-print -- 国内网址](https://print.osrc.com)
 
 ## Install 
