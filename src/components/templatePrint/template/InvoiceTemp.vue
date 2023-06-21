@@ -11,7 +11,7 @@
           :key="item"
         >
           <span class="inline-block w-[52px] text-justify [text-align-last:justify]">{{ item }}</span>
-          <span class="text-[--text]">：xxxxxxxxxxxxxxxx</span>
+          <span class="text-[--text]">：xxxxxxxxxx</span>
         </div>
       </div>
     </div>

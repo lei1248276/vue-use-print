@@ -1,5 +1,5 @@
 <template>
-  <div class="page-container mid">
+  <div class="mt-20 flex justify-center">
     <!-- * 直接传递'组件'和'props'进行一键打印 -->
     <!-- <el-button
       type="primary"
@@ -71,6 +71,9 @@
 </template>
 
 <script setup lang="ts">
+import { defineAsyncComponent, shallowRef, ref } from 'vue'
+import { ElButton} from 'element-plus'
+import usePrint from 'vue3-use-print'
 import InputTemp from './template/InputTemp.vue'
 const OutTemp = defineAsyncComponent(() => import('./template/OutTemp.vue'))
 const InvoiceTemp = defineAsyncComponent(() => import('./template/InvoiceTemp.vue'))

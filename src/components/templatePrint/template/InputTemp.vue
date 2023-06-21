@@ -37,6 +37,8 @@
 </template>
 
 <script setup lang="ts">
+import { ElTable, ElTableColumn } from 'element-plus'
+
 defineOptions({
   name: 'InputTemp'
 })
