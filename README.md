@@ -11,6 +11,37 @@ yarn add vue3-use-print
 ```
 
 ## Usage
+```typescript
+/**
+ * @param dom DOM元素
+ * @param options.before 打印之前回调
+ * @param options.after 打印之后回调
+ */
+export default function usePrint(
+  dom: HTMLElement, 
+  options?: {
+    before?: Function;
+    after?: Function;
+  } 
+): void;
+/**
+ * @param component vue组件
+ * @param props 组件props
+ * @param options.before 打印之前回调
+ * @param options.after 打印之后回调
+ * @param options.timeout 打印超时时间
+ */
+export default function usePrint(
+  component: ReturnType<typeof defineAsyncComponent>, 
+  props?: Record<string, any>, 
+  options?: {
+    before?: Function;
+    after?: Function;
+    timeout?: number;
+  }
+): void;
+```
+
 ```vue
 <script setup lang="ts">
 import { shallowRef, defineAsyncComponent } from 'vue'
